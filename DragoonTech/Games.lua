@@ -12,6 +12,7 @@ local Games = {
 
 if Games[game.PlaceId] then
     loadstring(game:HttpGet(Games[game.PlaceId]))()
-else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SeasonalKirito/DragoonTech/main/DragoonTech/Universal.lua"))()
+
+else 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SeasonalKirito/DragoonTech/main/DragoonTech/Universal.lua"))() --SeasonWare Universal--
 end
