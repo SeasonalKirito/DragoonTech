@@ -9,7 +9,7 @@ local hwid = decoded.headers['Syn-Fingerprint']
 
 for i, v in pairs(hwidPaste) do
     if v == hwid then
-        loadstring(game:HttpGet(""))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SeasonalKirito/DragoonTech/main/DragoonTech/Games.lua"))()
     else
 
         
