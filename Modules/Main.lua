@@ -1,6 +1,8 @@
 -- Made by SEASONAL#8280 <3
 -- if you have any questions about the library message me on discord.
 
+local GUI = {};
+
 -- services
 local players = game:GetService("Players")
 local tweenService = game:GetService("TweenService")
